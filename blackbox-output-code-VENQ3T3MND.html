@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elaina - The Ashen Witch</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f5; /* Light gray */
+            color: #4b0082; /* Purple */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2f2f2f; /* Dark gray */
+            color: #ffffff; /* White */
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .description {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+            background-color: #e6e6fa; /* Light purple */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery-item {
+            flex: 1 1 300px;
+            max-width: 300px;
+            text-align: center;
+            background-color: #ffffff; /* White */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery-item .caption {
+            padding: 10px;
+            font-size: 1em;
+            color: #2f2f2f; /* Dark gray */
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .description {
+                font-size: 1em;
+                padding: 15px;
+            }
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+            .gallery-item {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elaina – The Ashen Witch</h1>
+    </header>
+    <div class="container">
+        <div class="description">
+            <p>Elaina is a young witch from the anime "Majo no Tabitabi" (Wandering Witch: The Journey of Elaina). Known for her ashen hair and magical prowess, she embarks on journeys to learn about the world, sharing stories of witches and magic with a calm, elegant demeanor.</p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://static.wikia.nocookie.net/majonotabitabi/images/5/5a/Elaina.png" alt="Elaina Portrait">
+                <div class="caption">Elaina in her iconic witch attire.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://static.wikia.nocookie.net/majonotabitabi/images/9/9c/Elaina_with_broom.png" alt="Elaina with Broom">
+                <div class="caption">Elaina flying on her broomstick.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://static.wikia.nocookie.net/majonotabitabi/images/3/3a/Elaina_smiling.png" alt="Elaina Smiling">
+                <div class="caption">A rare smile from the ashen witch.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://static.wikia.nocookie.net/majonotabitabi/images/7/7b/Elaina_in_forest.png" alt="Elaina in Forest">
+                <div class="caption">Elaina exploring a mystical forest.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
