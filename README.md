@@ -91,7 +91,7 @@
                 <div class="caption">Elaina in her iconic witch attire, ready for travel.</div>
             </div>
             <div class="gallery-item">
-                <img src="https://static.wikia.nocookie.net/wanderingwitch/images/9/9e/Elaina_Portrait.png/revision/latest?cb=20200115165924" alt="Portrait of Elaina">
+                <img src="https://share.google/gLKQDrZkhVJ17vq3t">
                 <div class="caption">A serene portrait capturing Elaina's thoughtful expression.</div>
             </div>
             <div class="gallery-item">
